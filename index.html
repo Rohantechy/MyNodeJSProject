@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <style>
+        .main-container{
+            border: 1px solid black;
+            width: 50%;
+            margin: auto;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+        <h2>My Website</h2>
+      <form action="/save-data" method="POST"> 
+        <label for="key">Key : </label>
+        <input id="key" type="text" name="key" required/>
+        <label for="value">Value : </label>
+        <input id="value" type="text" name="value" required/>
+        <button type="submit" href="/">Save</button>
+      </form>
+    </div>
+  </body>
+</html>
